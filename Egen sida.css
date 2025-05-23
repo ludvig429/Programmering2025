@@ -1,0 +1,35 @@
+/* Author: Ludvig Laine EEDat2 */
+
+body {background-color:whitesmoke;}
+/*Kod för hemsidans bakgrund*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(50, 50, 50);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+}
+/*Kod utseende för hemsidans meny*/
+
+#Zelda {font-size: 50px;}
+
+
+
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */

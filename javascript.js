@@ -5,4 +5,5 @@ let idag = new Date();
 function visaDatum() {
   let datumText = idag.toLocaleDateString("sv-SE");
   document.getElementById("datumruta").textContent = datumText;
+
 }
